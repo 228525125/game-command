@@ -7,7 +7,7 @@ public class ExecuteValidatorException extends ValidatorException {
 
 	public ExecuteValidatorException() {
 		// TODO Auto-generated constructor stub
-		super(I18n.getMessage("org.cx.game.exception.ExecuteValidatorException"));
+		super(I18n.getMessage("org.cx.game.command.exception.ExecuteValidatorException"));
 	}
 	
 	public ExecuteValidatorException(String description) {
