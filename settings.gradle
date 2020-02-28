@@ -8,3 +8,6 @@
  */
 
 rootProject.name = 'game-command'
+
+include ':game-validation'
+project(':game-validation').projectDir = new File(settingsDir, '../game-validation')

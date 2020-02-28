@@ -11,6 +11,8 @@ repositories {
 }
 
 dependencies {
+	implementation project(':game-validation')
+
     testCompile group: "junit", name: "junit", version: "${junit_version}"       //junit隐含hamcrest-core包
     
     compile group: 'dom4j', name: 'dom4j', version: "${dom4j_version}"
