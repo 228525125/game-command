@@ -12,6 +12,6 @@ public class SyntaxValidatorException extends ValidatorException {
 	
 	public SyntaxValidatorException(String description) {
 		// TODO Auto-generated constructor stub
-		super(I18n.getMessage(description));
+		super(description);
 	}
 }

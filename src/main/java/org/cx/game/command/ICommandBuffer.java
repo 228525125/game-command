@@ -1,7 +1,7 @@
 package org.cx.game.command;
 
 public interface ICommandBuffer {
-
+	
 	void set(Object object);
 
 	Object get();
